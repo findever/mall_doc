@@ -1,7 +1,8 @@
 ---
-	layout: default
-	title: 商城说明首页
+layout: default
+title: 商城说明首页
 ---
+
 # 说明
 
 ## 本文档说明
