@@ -1,37 +1,38 @@
 ---
 	layout: default
-	title: ÄãºÃ£¬ÊÀ½ç
+	title: ä½ å¥½ï¼Œä¸–ç•Œ
 ---
-# ËµÃ÷
 
-## ±¾ÎÄµµËµÃ÷
-*	²ÉÓÃmarkdownÓï·¨±àĞ´£¬·¢²¼ÔÚgithub [²é¿´µØÖ·](http://findever.github.io/mall_doc)
+# è¯´æ˜
 
-### ÎÄµµ¹¹½¨Á÷³Ì
+## æœ¬æ–‡æ¡£è¯´æ˜
+*	é‡‡ç”¨markdownè¯­æ³•ç¼–å†™ï¼Œå‘å¸ƒåœ¨github [æŸ¥çœ‹åœ°å€](http://findever.github.io/mall_doc)
+
+### æ–‡æ¡£æ„å»ºæµç¨‹
 *	http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html
 
-### markdownÓï·¨
+### markdownè¯­æ³•
 *	http://www.markdown.cn/
 
-## Ç°¶Ë¹¹½¨Ïà¹ØÑ§Ï°×ÊÁÏ
+## å‰ç«¯æ„å»ºç›¸å…³å­¦ä¹ èµ„æ–™
 
-*	**×¢£ºÈçÎŞÌØÊâËµÃ÷£¬ÒÔÏÂ¾ùÎªµİ½øÑ§Ï°¹ØÏµ**
+*	**æ³¨ï¼šå¦‚æ— ç‰¹æ®Šè¯´æ˜ï¼Œä»¥ä¸‹å‡ä¸ºé€’è¿›å­¦ä¹ å…³ç³»**
 
-#### 1. jsµÄAMD¹æ·¶
+#### 1. jsçš„AMDè§„èŒƒ
 *	http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html
 
 #### 2. require.js
 *	http://www.open-open.com/lib/view/open1378778013334.html
 
-#### 3. °Ù¶ÈFISÈëÃÅ
+#### 3. ç™¾åº¦FISå…¥é—¨
 *	http://fis.baidu.com/docs/beginning/getting-started.html
 
-#### 4. °Ù¶Èjello£¨java+velocity£©Ç°¶Ë·½°¸£¬»ùÓÚFIS
-*	__½éÉÜ£º__
+#### 4. ç™¾åº¦jelloï¼ˆjava+velocityï¼‰å‰ç«¯æ–¹æ¡ˆï¼ŒåŸºäºFIS
+*	__ä»‹ç»ï¼š__
 		http://fex.baidu.com/blog/2014/11/another-fis-solusition-jello/
-*	__¼òÒªÈëÃÅÎÄµµ£º__
+*	__ç®€è¦å…¥é—¨æ–‡æ¡£ï¼š__
 		http://oak.baidu.com/docs/jello
-*	__ÏêÏ¸ÎÄµµ+ÊµÀı£º__
+*	__è¯¦ç»†æ–‡æ¡£+å®ä¾‹ï¼š__
 		http://106.186.23.103:8080/
-*	__fis-plusÎÄµµ£º__
+*	__fis-plusæ–‡æ¡£ï¼š__
 		http://fis.baidu.com/fis-plus/userdoc/
