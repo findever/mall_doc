@@ -1,14 +1,10 @@
----
-layout: post
----
-
 # 说明
 
 ## 本文档说明
 *	采用markdown语法编写，发布在github [查看地址](http://findever.github.io/mall_doc)
 
 ### 文档构建流程
-*	http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html
+*	[http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html]()
 
 ### markdown语法
 *	http://www.markdown.cn/
