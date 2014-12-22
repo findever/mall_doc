@@ -12,8 +12,11 @@
 ### Liquid 模版语法
 * 	https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 
-### Jekyll提供的Liquid扩展
+### Jekyllrb提供的Liquid扩展
 *	https://github.com/jekyll/jekyll/wiki/Liquid-Extensions
+
+### Jekyllrb的中文参考
+*	http://ifindever.com/archives/300.html
 
 ## 前端构建相关学习资料
 

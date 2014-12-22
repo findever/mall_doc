@@ -1,4 +1,6 @@
 baseurl: /mall_doc
+permalink: /:year/:month/:day/:title.html
+date: "YYYY-MM-DD HH:MM:SS"
 defaults:
   -
     scope:
@@ -6,4 +8,4 @@ defaults:
     values:
       layout: "post"
       author: "findever"
-      date: "YYYY-MM-DD HH:MM:SS"
+      category: "未分类"

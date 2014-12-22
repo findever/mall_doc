@@ -6,3 +6,11 @@ layout: default
 {%for post in site.posts %}
 * {{ post.date | date_to_string }} [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
+
+## 分类文章列表
+{% for category in site.categories %}
+### {{ category | first }} （{{ category | last | size }}）
+	{% for post in category.last %}
+		1. {{ post.date | date:"%d/%m/%Y"}} [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+	{% endfor %}
+{% endfor %}
