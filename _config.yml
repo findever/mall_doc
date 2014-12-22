@@ -1,1 +1,9 @@
 baseurl: /mall_doc
+defaults:
+  -
+    scope:
+      path: "" # 空表示所有文件
+    values:
+      layout: "post"
+      author: "findever"
+      date: "YYYY-MM-DD HH:MM:SS"
