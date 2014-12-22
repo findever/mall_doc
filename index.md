@@ -9,7 +9,7 @@ layout: default
 
 ## 分类文章列表
 {% for category in site.categories %}
-### {{ category | first }} ({{ category | last | size }})
+### {{ category | first }} ({{ category | last | size }}) {{ site.baseurl }}
 {% for post in category.last %}
 	1. {{ post.date | date:"%Y-%m-%d"}} [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
