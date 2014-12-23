@@ -6,8 +6,8 @@ author: "findever"
 ---
 
 __描述前端ajax请求后端java时返回的json数据格式__
-
-* 返回结果示例
+<!--more-->
+* 返回结果示例  
 	`{status:0,data:{....},msg:"请求成功"}`
 
 * 返回结果参数说明
