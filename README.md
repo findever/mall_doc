@@ -1,5 +1,7 @@
 # 说明
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 ## 本文档说明
 *	采用markdown语法编写，发布在github [查看地址](http://findever.github.io/mall_doc)
 
@@ -11,6 +13,7 @@
 
 ### github的部分使用技巧
 *	https://github.com/xuanfeng/github-cheat-sheet/blob/master/README.zh-cn.md
+*	https://help.github.com/articles/github-flavored-markdown/
 
 ### Liquid 模版语法
 * 	https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
@@ -20,6 +23,8 @@
 
 ### Jekyllrb的中文参考
 *	http://ifindever.com/archives/300.html
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## 前端构建相关学习资料
 
