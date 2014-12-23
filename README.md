@@ -24,6 +24,9 @@
 ### Jekyllrb的中文参考
 *	http://ifindever.com/archives/300.html
 
+## 主题修改来源
+*	https://github.com/Simpleyyt/simpleyyt.github.io
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## 前端构建相关学习资料
