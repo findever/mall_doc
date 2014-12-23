@@ -1,11 +1,16 @@
 baseurl: /mall_doc
 permalink: /:year/:month/:day/:title.html
 date: "YYYY-MM-DD HH:MM:SS"
+pygments: false
+markdown: redcarpet
+redcarpet:
+	extensions: [fenced_code_blocks]
+	render_options:
 defaults:
-  -
-    scope:
-      path: "" # 空表示所有文件
-    values:
-      layout: "post"
-      author: "findever"
-      category: "未分类"
+	-
+		scope:
+		path: "" # 空表示所有文件
+		values:
+		layout: "post"
+		author: "findever"
+		category: "未分类"

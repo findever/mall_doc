@@ -9,6 +9,9 @@
 ### markdown 语法
 *	http://www.markdown.cn/
 
+### github的部分使用技巧
+*	https://github.com/xuanfeng/github-cheat-sheet/blob/master/README.zh-cn.md
+
 ### Liquid 模版语法
 * 	https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 
