@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About Me
-header: About Me
+title: 关于
+header: 关于
 group: navigation
 ---
  * **Name:** Yitao Yao
