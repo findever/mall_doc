@@ -21,10 +21,10 @@ dl {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
-dd {
+dt {
 	font-weight: bold;
 }
-dt {
+dd {
 	padding-left: 24px;
 }
 blockquote,q {
