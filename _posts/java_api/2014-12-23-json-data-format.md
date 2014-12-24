@@ -10,9 +10,10 @@ __描述前端ajax请求后端java时返回的json数据格式__
 <!--more-->
 
 * 返回结果示例  
-	~~~ json
+{% highlight json %}
+	json
 		{status:0,data:{....},msg:"请求成功"}
-	~~~
+{% endhighlight %}
 
 * 返回结果参数说明
 	1. `status` (必须) 描述请求的状态  
