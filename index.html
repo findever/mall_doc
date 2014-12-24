@@ -17,12 +17,15 @@ group: home
 	<div id="journal-articles-block">
 	{% for post in paginator.posts %}
 		<div class="journal-article">
-			<div class="journal-post-info">
-				{% assign categories_list = post.categories %}
-				{% assign category = categories_list.first %}
-				{% include themes/Snail/category.html %}
-				{% assign categories_list = nil %}
-			</div>
+		
+			<!--去掉分类标识-->
+			<!--<div class="journal-post-info">-->
+			<!--	{% assign categories_list = post.categories %}-->
+			<!--	{% assign category = categories_list.first %}-->
+			<!--	{% include themes/Snail/category.html %}-->
+			<!--	{% assign categories_list = nil %}-->
+			<!--</div>-->
+			
 			<div class="journal-body">
 				<h1 class="journal-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span class="author">{{ post.tagline }}</span></h1>
 				{% case site.excerpt %}
