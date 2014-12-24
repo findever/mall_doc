@@ -17,7 +17,7 @@
 			{% if forloop.first %}
 			  <div  class="team-member">
 			  <h2>{{this_year}}</h2>
-			  <h3>{{this_month}}</h3>
+			  <h3>{{this_month | date: "%m"}}</h3>
 			  <ul>
 			{% endif %}
 			
