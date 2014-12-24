@@ -17,6 +17,16 @@ body {
 ol,ul {
 	list-style:none;
 }
+dl {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+dd {
+	font-weight: bold;
+}
+dt {
+	padding-left: 24px;
+}
 blockquote,q {
 	quotes:none;
 }
