@@ -4,7 +4,5 @@ title: 关于
 header: 关于
 group: navigation
 ---
- * **Name:** Yitao Yao
- * **Email:** [simpleyyt@gmail.com](mailto:simpleyyt@gmail.com)
- * **WeiBo:** [摇一摇SimpleLife](http://www.weibo.com/u/1836017133)
- * **Github:** [Simpleyyt](https://github.com/Simpleyyt)
+ * **Name:** Mall_doc
+ * **Github:** [Mall_doc](https://github.com/findever/mall_doc)

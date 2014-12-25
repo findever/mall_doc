@@ -27,5 +27,5 @@ __描述前端ajax请求后端java时返回的json数据格式__
 		| logined | 登录成功 | 继续之前的操作，如为首次登录则跳转到首页 
 		{: rules="groups"}
 
-	2. `data` (status为success时必须) 返回的json数据
+	2. `data` （status为success时必须） 返回的json数据
 	3. `secret` （非必须）返回数据是否需要解密 0：不需要（默认），1：需要
