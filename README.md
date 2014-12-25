@@ -10,6 +10,7 @@
 
 ### markdown 语法
 *	http://www.markdown.cn/
+*	http://kramdown.gettalong.org/quickref.html `kramdown引擎`
 
 ### github的部分使用技巧
 *	https://github.com/xuanfeng/github-cheat-sheet/blob/master/README.zh-cn.md
