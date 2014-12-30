@@ -40,15 +40,15 @@
 #### 2. require.js
 *	http://www.open-open.com/lib/view/open1378778013334.html
 
+### 3. zepto API文档
+*	http://www.css88.com/doc/zeptojs  
+_(本项目打包了zepto event ajax form fx fx\_methods data assets selector touch模块，编译于2014-12-26)_
+
 #### 3. 百度FIS入门
 *	http://fis.baidu.com/docs/beginning/getting-started.html
 
-#### 4. 百度jello（java+velocity）前端方案，基于FIS
-*	__介绍：__
-		http://fex.baidu.com/blog/2014/11/another-fis-solusition-jello/
+#### 4. 百度fis-pure前端方案，基于FIS
 *	__简要入门文档：__
-		http://oak.baidu.com/docs/jello
-*	__详细文档+实例：__
-		http://106.186.23.103:8080/
+		http://oak.baidu.com/docs/pure/index.html
 *	__fis-plus文档：__
 		http://fis.baidu.com/fis-plus/userdoc/

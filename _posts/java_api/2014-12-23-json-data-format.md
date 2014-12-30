@@ -11,7 +11,7 @@ __描述前端ajax请求后端java时返回的json数据格式__
 
 * 返回结果示例  
 {% highlight json %}
-	{"status":"logined", "secret":"0", data:{"aaa":"dddddddddd"}}
+	{"status":"logined", "secret":"0", "data":{"aaa":"dddddddddd"}}
 {% endhighlight %}
 
 * 返回结果参数说明
