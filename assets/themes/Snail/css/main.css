@@ -37,13 +37,18 @@ blockquote:before,blockquote:after,q:before,q:after {
 	content:'';
 	content:none;
 }
-code {
-	padding: .15em .5em;
+pre,code{ 
 	font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
-	border:1px solid #ccc;
-	border-radius:3px;
-	background:#efefef;
-	/* color:#777; */
+	font-size: 1em;
+}
+code {
+	font-size: 13px;
+	color: #d14;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 1px 3px;
+	word-wrap: normal;
 }
 pre code {
 	display: block;
@@ -79,33 +84,17 @@ table td {
 	border-color: #666666;
 	background-color: #ffffff;
 }
-/*表格样式修改*/
-html,body {
-	color:#4D4D4D;
-	font-size:14px;
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
-	height:100%;
-}
-body {
-	overflow-y:scroll;
-}
 h1,h1 a {
-	color:#333;
-	font-size:32px;
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
-	font-weight:600;
+	font-size: 2em;
+	margin: .67em 0;
 }
 h2,h2 a {
-	font-weight:300;
-	font-size:24px;
-	color:#4D4D4D;
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
+	font-size: 1.5em;
+	margin: .83em 0;
 }
 h3,h3 a {
-	font-weight:normal;
-	color:#4D4D4D;
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
-	font-size:17px;
+	font-size: 1.17em;
+	margin: 1em 0;
 }
 a {
 	text-decoration:none;
@@ -160,9 +149,8 @@ em,i {
 	font-style:italic;
 }
 p {
-	line-height:1.75em;
+	line-height:1.7em;
 	margin:1em auto;
-	font-size: 15px;
 }
 li {
 	line-height:1.6em;
@@ -199,9 +187,6 @@ sup {
 	vertical-align:super;
 	font-size:smaller;
 }
-button {
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
-}
 tr td {
 	padding:2px 6px;
 }
@@ -234,7 +219,6 @@ tr td {
 	font-size:24px;
 	color:#808080;
 	padding:8px 0 0 0;
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
 }
 .large-page-title.border-bottom {
 	border-bottom:solid 1px #CCC;
@@ -345,7 +329,6 @@ nav #nav-c ul#nav-list li a {
 	text-shadow:#FFF 0 1px 0;
 	white-space:nowrap;
 	font-size:14px;
-	font-family:"Open Sans","Droid Sans",Arial,sans-serif;
 	height:30px;
 	display:block;
 	padding:16px 23px 0;
@@ -418,7 +401,6 @@ nav #nav-c div#nav-user {
 	text-shadow:white 0 1px 0;
 	vertical-align:middle;
 	padding:0 10px;
-	font-family:'Droid Sans',arial,sans-serif;
 }
 nav #nav-c div#nav-user span {
 	display:block;
@@ -1062,7 +1044,6 @@ textarea {
 }
 textarea.styletext {
 	background:none;
-	font-family:'Open Sans','Droid Sans',arial,sans-serif;
 	width:818px;
 	height:250px;
 	border:solid 1px #C6C6C6;
@@ -1093,7 +1074,6 @@ textarea.styletext:focus {
 	padding:0 7px 0 5px;
 	line-height:27px;
 	background-position:0 28px;
-	font-family:'Droid Sans',arial,sans-serif;
 	text-shadow:0 1px 0 white;
 	color:#9e8371;
 	font-weight:bold;

@@ -64,7 +64,10 @@
 }
 #journal-articles-block h1,#journal-articles-block h1 a {
 	color:#333;
-	font-weight:300;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px #F5F1F1 solid;
+	padding-bottom: 20px;
 }
 #journal-articles-block .journal-article {
 	clear:both;
@@ -79,10 +82,8 @@
 	background:rgba(243,57,57,0.04);
 }
 #journal-articles-block .journal-article .journal-body {
-	padding:0 0 15px 0;
-	width:732px;
-	float:left;
-	margin-left:30px;
+	padding: 0 0 15px 0;
+	width: 100%;
 }
 .journal-cat-box {
 	color:#FFF;
