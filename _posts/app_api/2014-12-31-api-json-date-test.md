@@ -82,5 +82,5 @@ http://mall.com/api.php?_p=a/b&id2&_debug
 ~~~php
 //GET http://mall.com/a/b?name=lisi
 http://mall.com/api.php?_p=a/b&name=lisi&_debug
-若存在`__ROOT__/test/a/b/name=lisi.json`,api不再`__ROOT__/test/a/b`下创建json文件。
+若存在`__ROOT__/test/a/b/name=lisi.json`, api将不会在`__ROOT__/test/a/b`下创建json文件。
 ~~~
