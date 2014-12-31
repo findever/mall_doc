@@ -39,11 +39,38 @@ http://mall.com/api.php?_p=a/b&_debug
   
 - server_config配置
 
-  文件路径：`__ROOT__/api/server_config.php`
+  文件路径：`__ROOT__/api/server_config.php`, api将按照给定的配置对json文件重命名, 不配置则按照上述演示生成json文件名
   
-~~~javascript
-//GET http://mall.com/a/b
-http://mall.com/api.php?_p=a/b&_debug
-//JSON_FILE_PATH => __ROOT__/test/a/b/index.json
-//api会在项目的`test/a/b/`目录下生成`file_name`为`index`的json文件(index为默认json文件名）
+~~~php
+server_config初始配置如下：
+<?php
+	// 请求path => array(正则 => 实际文件名·无后缀)
+	return array(
+		"url_path"	=>	array(
+						"/req/i"	=>	"new_file_name"
+					)
+	);
+?>
+
+//如对其配置如下：
+<?php
+	// 请求path => array(正则 => 实际文件名·无后缀)
+	return array(
+		"a/b"	=>	array(
+						"/id=1/i"	=>	"id1",
+						"/id=2/i"	=>	"id2"
+					)
+	);
+?>
+
+//GET http://mall.com/a/b?id=1
+http://mall.com/api.php?_p=a/b&id1&_debug
+//JSON_FILE_PATH => __ROOT__/test/a/b/id1.json
+//api会在项目的 test/a/b/ 目录下生成文件名为 id1 的json文件
+
+//GET http://mall.com/a/b?id=2
+http://mall.com/api.php?_p=a/b&id2&_debug
+//JSON_FILE_PATH => __ROOT__/test/a/b/id2.json
+//api会在项目的 test/a/b/ 目录下生成文件名为 id2 的json文件
+
 ~~~
