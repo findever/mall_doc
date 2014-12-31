@@ -5,8 +5,7 @@ category: java_api
 author: "findever"
 ---
 
-__描述前端ajax请求后端java时返回的json数据格式__
-
+## 描述前端ajax请求后端java时返回的json数据格式
 <!--more-->
 
 * 返回结果示例  

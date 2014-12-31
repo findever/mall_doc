@@ -5,7 +5,7 @@ category: app_api
 author: "findever"
 ---
 
-__描述app端针对H5应用的基本api接口__
+## 描述app端针对H5应用的基本api接口
 
 <!--more-->
 

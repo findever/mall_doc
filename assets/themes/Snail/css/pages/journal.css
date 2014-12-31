@@ -174,20 +174,14 @@
 	padding:5px 0;
 }
 #journal-articles-block .the-article h2,#journal-articles-block .the-article h2 a {
-	font-size: 25px;
 	font-weight: 600;
 	color:#333;
-	padding: 20px 0 20px;
 }
 #journal-articles-block .the-article h1 {
-	font-size: 30px;
 	font-weight: 600;
-	padding: 25px 0 25px;
 }
 #journal-articles-block .the-article h3 {
-	font-size: 20px;
 	font-weight: 600;
-	padding: 15px 0 15px;
 }
 
 #journal-articles-block .the-article p {
