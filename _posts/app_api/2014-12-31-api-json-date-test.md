@@ -55,10 +55,10 @@ return array(
 //如对其配置如下：
 <?php
 // 请求path => array(正则 => 实际文件名·无后缀)
-	return array(
-		"a/b" => array(
-			"/id=1/i" => "id1",
-			"/id=2/i" => "id2"
+return array(
+	"a/b" => array(
+		"/id=1/i" => "id1",
+		"/id=2/i" => "id2"
 			)
 	);
 ?>
