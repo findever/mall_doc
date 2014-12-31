@@ -42,12 +42,12 @@ http://mall.com/api.php?_p=a/b&_debug
   文件路径：`__ROOT__/api/server_config.php`, api将按照给定的配置对json文件重命名, 不配置则按照上述演示生成json文件名
   
 ~~~php
-server_config初始配置如下：
+server_config 初始配置如下：
 <?php
 	// 请求path => array(正则 => 实际文件名·无后缀)
 	return array(
-		"url_path"	=>	array(
-						"/req/i"	=>	"new_file_name"
+		"url_path" => array(
+				"/req/i" => "new_file_name"
 					)
 	);
 ?>
@@ -56,9 +56,9 @@ server_config初始配置如下：
 <?php
 	// 请求path => array(正则 => 实际文件名·无后缀)
 	return array(
-		"a/b"	=>	array(
-						"/id=1/i"	=>	"id1",
-						"/id=2/i"	=>	"id2"
+		"a/b" => array(
+				"/id=1/i" => "id1",
+				"/id=2/i" => "id2"
 					)
 	);
 ?>
