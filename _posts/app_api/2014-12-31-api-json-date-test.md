@@ -63,6 +63,8 @@ server_config 初始配置如下：
 	);
 ?>
 
+//api将根据上述正则, 对url进行匹配转换
+
 //GET http://mall.com/a/b?id=1
 http://mall.com/api.php?_p=a/b&id1&_debug
 //JSON_FILE_PATH => __ROOT__/test/a/b/id1.json
@@ -74,3 +76,10 @@ http://mall.com/api.php?_p=a/b&id2&_debug
 //api会在项目的 test/a/b/ 目录下生成文件名为 id2 的json文件
 
 ~~~
+
+- json文件覆盖规则
+
+//GET http://mall.com/a/b?name=lisi
+http://mall.com/api.php?_p=a/b&name=lisi&_debug
+若存在`__ROOT__/test/a/b/name=lisi.json`,api不再`__ROOT__/test/a/b`下创建json文件。
+
